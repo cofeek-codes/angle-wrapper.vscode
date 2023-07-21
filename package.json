@@ -9,10 +9,16 @@
 	"categories": [
 		"Other"
 	],
+	"publisher": "cofeek-codes",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/cofeek-codes/angle-wrapper.vscode.git"
 	},
+	"keywords": [
+		"vscode",
+		"extension",
+		"text"
+	],
 	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
