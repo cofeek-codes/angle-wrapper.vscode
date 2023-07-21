@@ -2,20 +2,17 @@
 	"name": "angle-wrapper",
 	"displayName": "Angle Wrapper",
 	"description": "wrap text in <> pressing C-<",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.80.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"keybindings": [
-		{
-			"command": "angle-wrapper.wrap",
-			"key": "ctrl+<",
-			"when": "editorTextFocus && editorHasSelection"
-		}
-	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cofeek-codes/angle-wrapper.vscode.git"
+	},
 	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -23,6 +20,13 @@
 			{
 				"command": "angle-wrapper.wrap",
 				"title": "Angle Wrapper wrap"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "angle-wrapper.wrap",
+				"key": "<",
+				"when": "editorFocus && editorHasSelection"
 			}
 		]
 	},

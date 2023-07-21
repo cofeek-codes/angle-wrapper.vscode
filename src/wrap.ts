@@ -15,7 +15,6 @@ export function wrap() {
 			)
 			const highlighted = editor.document.getText(selectionRange)
 			const wrappedText = `<${highlighted}>`
-
 			editor.edit(editBuilder => {
 				editBuilder.replace(selectionRange, wrappedText)
 			})

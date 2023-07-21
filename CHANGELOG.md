@@ -1,9 +1,9 @@
-# Change Log
+# Changelog
 
-All notable changes to the "angle-wrapper" extension will be documented in this file.
+## [1.0.0] - 2023-07-21
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- initial release
 
-## [Unreleased]
+### Added
 
-- Initial release
+- Core functions, keybinding
