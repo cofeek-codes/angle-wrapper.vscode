@@ -24,4 +24,4 @@ Wrap text in angle brackets pressing "<" on selection
 
 # Release Notes
 
-See [CHANGELOG.md](./CHANGELOG.md)
+See [CHANGELOG.md](https://github.com/cofeek-codes/angle-wrapper.vscode/blob/main/CHANGELOG.md)
